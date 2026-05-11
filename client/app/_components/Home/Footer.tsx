@@ -79,9 +79,9 @@ export default function Footer() {
           <div>
             <h3 className="font-semibold text-lg mb-5 text-white border-b border-[#FFCC00] pb-2">Support</h3>
             <ul className="space-y-3">
-              <li><a href="/contact" className="text-white/70 text-base hover:text-white transition-colors">Contact Us</a></li>
-              <li><a href="/faq" className="text-white/70 text-base hover:text-white transition-colors">FAQs</a></li>
-              <li><Link href="/support/" className="text-white/70 text-base hover:text-white transition-colors">Help Center</Link></li>
+              <li><Link href="/contact" className="text-white/70 text-base hover:text-white transition-colors">Contact Us</Link></li>
+              <li><Link href="/faq" className="text-white/70 text-base hover:text-white transition-colors">FAQs</Link></li>
+              <li><Link href="/support" className="text-white/70 text-base hover:text-white transition-colors">Help Center</Link></li>
               <li><Link href="/support/careers" className="text-white/70 text-base hover:text-white transition-colors">Careers</Link></li>
             </ul>
           </div>

@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useEffect, useRef } from "react";
+import Link from "next/link";
 import { createBrowserClient } from "@supabase/ssr";
 import gsap from "gsap";
 import { useAuth } from "../../../context/AuthContext";
@@ -93,11 +94,11 @@ const CTA = () => {
             Get started
           </button>
         )}
-        <a href="/app-download">
+        <Link href="/app-download">
           <button className="cursor-pointer font-semibold px-4 py-1.5 sm:px-4 sm:py-2 border-2 border-[#FFCC00] hover:bg-[#ffcc00f0] transition-all ease-in-out text-xs sm:text-sm rounded-full text-[#1e1e1e] bg-[#ffcc00] whitespace-nowrap">
             Download the app
           </button>
-        </a>
+        </Link>
       </div>
     </div>
   );
